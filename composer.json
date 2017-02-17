@@ -1,0 +1,19 @@
+{
+    "name": "mintopia/hackify",
+    "description": "Hack Festify",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "nesbot/carbon": "^1.22"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jessica Smith",
+            "email": "jess@mintopia.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Mintopia\\Hackify\\": "src/" }
+    }
+}
