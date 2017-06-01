@@ -53,7 +53,7 @@
         public function vote($spotifyId)
         {
             $data = (object) [
-                'spotifyID' => $spotifyID
+                'spotifyID' => $spotifyId
             ];
             $result = $this->post('/queue', $data);
             return new Track($this, $result);
