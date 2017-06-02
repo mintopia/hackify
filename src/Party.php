@@ -50,9 +50,10 @@
             return $return;
         }
 
-        public function vote($spotifyId)
+        public function vote($name, $spotifyId)
         {
             $data = (object) [
+            	'name' => $name,
                 'spotifyID' => $spotifyId
             ];
             $result = $this->post('/queue', $data);
